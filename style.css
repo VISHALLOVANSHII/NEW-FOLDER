@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+    background-color:navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+   /* position: relative;
+   zoom: 2; */
+}
+.text ul{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+margin-left:40px ;
+/* justify-content:space-between; */
+
+}
+.btn button{
+  background-color:pink;
+  border-radius:6px ;
+}
+.text ul li{
+    margin-left:60px; 
+    justify-content:space-between;
+
+}
+.btn{
+  margin-right: 15px; 
+ 
+}
+.container{
+    height: 100vh;
+   /* background-color: cornflowerblue;  */
+background-image: url(./abstract-background-design_1297-78.avif);
+  color: white; 
+
+
+}
+.clic-btn{
+height:60px;
+display: flex;
+justify-content: space-between;
+
+}
+.clic-btn button{
+    width: 80px;
+    margin-top:20px ;
+    border-radius:30%;
+    background-color: darksalmon;
+    
+}
+.clic-btn button:hover{
+ transform: scale(1.2); 
+ background-color: rgb(47, 123, 255);  
+
+}
+.center{
+/* display: flex;
+justify-content: center;
+flex-direction: column; */
+text-align: center;
+position: relative;
+top: 90px;
+left: 333px;
+width: 50%;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+.center input{
+height: 50px;
+border-radius: 50px;
+text-align: center;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+
+}  
+
+
+
+
+
+
+
